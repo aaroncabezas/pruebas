@@ -9,7 +9,7 @@ public class TestAnimal {
 		System.out.print("Teclee el nombre del animal: ");
 		animal1.setNombre(teclado.nextLine());
 
-		System.out.print("Teclee la edad del animal: ");
+		System.out.print("Teclee la edad: ");
 		int edad = teclado.nextInt();
 
 		animal1.setEdad(edad);
