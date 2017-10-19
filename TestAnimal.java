@@ -9,13 +9,13 @@ public class TestAnimal {
 		System.out.print("Teclee el nombre del animal: ");
 		animal1.setNombre(teclado.nextLine());
 
-		System.out.print("Teclee la edad: ");
+		System.out.print("Teclee la edad del animal: ");
 		int edad = teclado.nextInt();
 
 		animal1.setEdad(edad);
 
 		animal1.nace();
-		System.out.println("Me llamo " + animal1.getNombre() + 
-							" y tengo " + animal1.getEdad() + " anyos");
+		System.out.println("Mi nombre es " + animal1.getNombre() + 
+							" y mi edad es " + animal1.getEdad() + " anyos");
 	}
 }
